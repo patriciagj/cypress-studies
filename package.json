@@ -4,6 +4,9 @@
     "prettier": "^2.6.2"
   },
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "triggerAllTests-headless": "cypress run",
+    "triggerAllTests-headed": "cypress run --headed",
+    "triggerAllTests-chrome": "cypress run --browser chrome"
   }
 }
